@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+::selection {
+  background-color: #6F9AF6;
+  color: black;
+}
+
+h3 {
+  padding: 1rem
+}
+
+#background {
+  background-image: url("img/wallpapers/Wallpaper (313).jpg");
+  background-size: cover;
+  width: 100vw;
+  min-height: 220vh;
+  filter: blur(2px);
+  z-index: 0;
+  position: absolute;
+}
+
+main {
+  width: 66vw;
+  background-color: #FAFAFA;
+  z-index: 3;
+  box-shadow: 2px 2px 15px 1px black;
+  border-radius: 0.25rem;
+  color: #49535C;
+}
+
+h3 {
+  color: #5B6875;
+}
+
+main {
+  border: 3px solid #aaaaaa;
+  margin-top: 10rem;
+}
+
+p {
+  padding: 2rem;
+}
+
+.pnormal {
+  display: inline-block;
+  float: left;
+}
+
+img {
+  float: right;
+  display: inline-block;
+  box-shadow: 2px 8px 15px 1px black;
+}
